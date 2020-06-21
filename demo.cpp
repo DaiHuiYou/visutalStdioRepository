@@ -5,12 +5,12 @@
 
 
 int main() {
-    FILE* fp = fopen("write.txt", "w");
-    fputs("Real Python!", fp);
+    //FILE* fp = fopen("write.txt", "w");
+    //fputs("Real Python!", fp);
     
     
-    int res = fclose(fp);
-    printf("result : %d", res);
+    //int res = fclose(fp);
+    //printf("result : %d", res);
 
     return 1;
 }
